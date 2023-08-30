@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5eb27ece80.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <div id="header">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo"><span>H</span>abiba.</a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <span>Software Engineering Student</span>
+                <h1>Ume Habiba</h1>
+                <p>With a strong foundation in C++, Data Structures and Algorithms, and a flair for<br> Front-End Development, I'm constantly exploring the realm of software engineering.</p>
+            </div>
+        </div>
+     </div>
+     <!-- -------------------About Section--------------------- -->
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="mine.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Me </h1>
+                    <p>👋 Welcome to my world of coding, creativity, and growth! 🌟<br>
+                        Hey there, I'm UME HABIBA, a passionate student of Software Engineering 👩‍💻 Learning different technologies is what I love to do. With a strong foundation in C++, Data Structures and Algorithms, and a flair for Front-End Development using HTML, CSS, and JavaScript, I'm constantly exploring the ever-evolving realm of software engineering.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming</span><br>Languages like C++, HTML, CSS, JS</li>
+                                <li><span>Microsoft Office</span><br>Word, Excel and Powerpoint</li>
+                                <li><span>Languages</span><br>English, Urdu, Punjabi, Chinese(Learning) </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023 - Present</span><br>Front-End Web Development internship at Interns Pakistan</li>
+                                <li><span>2023 - Present</span><br>Working as volunteer at Lincoln Corners Pakistan</li>
+                                <li><span>2022 - Present</span><br>Working as Human Resource manager (volunteer) at Youth Revamp</li>
+                                <li><span>2022 - Present</span><br>Member of Event Management society of University of Sargodha</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021 - 2025</span><br>BS Software Engineering</li>
+                                <li><span>2019 - 2021</span><br>FSc. Pre-Medical</li>
+                                <li><span>2016 - 2018</span><br>Matric(Science)</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- ----------------------Projects------------------------- -->
+    
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> Academic Projects </h1>
+            <div class="work-list">
+                <div>
+                    <i class="fa-solid fa-truck"></i>
+                    <h2>Delivery Website</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas doloribus, inventore corrupti, ipsum mollitia.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Hospital Management  System</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas doloribus, inventore corrupti, ipsum mollitia. </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Library Management  System</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas doloribus, inventore corrupti, ipsum mollitia. </p>
+                </div>
+            </div>
+        </div>
+     </div>
+
+    <!-- --------------------Contact----------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-at"></i> padhrar840@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 012345677689</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/ume-habiba10/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Ume-Habiba110"><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div><br>
+                    <div class="main-btn">
+                        <a href="Ume Habiba Resume.pdf" download class="btn">Download Resume</a>
+                    </div>
+                    <!-- <a href="Ume Habiba Resume.pdf" download class="btn btn2">Download Resume</a> -->
+                </div>    
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Habiba. Made with <i class="fas fa-heart"></i> by Ume Habiba<p>
+        </div>
+    </div>
+
+     <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+     </script>
+</body>
+</html>
